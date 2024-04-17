@@ -1,0 +1,17 @@
+section {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: lightpink;
+    border-radius: 10px;
+}
+
+section:has(.highlight) {
+    background-color: lightpink;
+    border: 6px solid #b39ddb;
+    border-radius: 10px;
+}
+
+body {
+
+    background-color: lavender;
+}
